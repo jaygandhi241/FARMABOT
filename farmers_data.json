@@ -1,0 +1,757 @@
+{
+    "intents": [
+      {
+        "tag": "choice-brands",
+        "patterns": [
+          "how many brands are there",
+          "what are some brands for this diseases",
+          "what are some companies for diseases",
+          "Good companies"
+        ],
+        "responses": [
+          "1. Agrofil Industries\n2. Alpha Crop Science Pvt Ltd\n3. BAYER\n4. Crystal Crop Protection Ltd\n5. National Pesticides and Chemicals\n6. Safex Chemicals (India) Limited\n7.Shree Organics\n8. Suryakiran chemicals\n9. Syngenta"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "choice-diseases",
+        "patterns": [
+          "can i know some diseases",
+          "diseases",
+          "info on diseases",
+          "Tell me types of diseases",
+          "what are some diseasees"
+        ],
+        "responses": 
+        [
+          "1. Anthracnose (Elsinoeampelina)\n2. Bacterial Leaf Spot(campestris OR Xanthomonas campestris)\n3. Downy Mildew OR Plasmoparaviticola\n4. Powdery Mildew OR Uncinula necator"
+        ],
+        "context": "About different types of diseases"
+      },
+      
+      {
+        "tag": "choice-pest",
+        "patterns": [
+          "can i know some pesticides", 
+          "I want to know something on pesticides",
+          "what are other pesticides"
+        ],
+        "responses": [
+          "1. Bordeaux mixture\n2. Bayleton\n3. Carbendazim\n4. Copper Oxychloride\n5. Fosetyl Al\n6. Mancozeb\n7. Metalaxyl\n8. Streptocycline\n9. Wettable Sulphur"
+        ]
+      },
+  
+      {
+        "tag": "choice-gov-policies",
+        "patterns": [
+          "What are the government policies", 
+          "Gov policies",
+          "Farming policies",
+          "Organic policies", 
+          "Sustainable policies",
+          "Some other government policies",
+          "Pradhan Mantri Krishi Yojana",
+          "Krishi Madat Yojana",
+          "Krishi Yojana",
+          "Policies for farmers",
+          "PM policies",
+          "Prime minister policies for farming"
+        ],
+        "responses": [
+          "1. Soil Health policies\n2. Insurance policies\n3. Market based policies\n4. Sustainable/Organic policies\n5. Income based policies"
+        ]
+      },
+  
+  
+     
+      {
+        "tag": "brands-for-bordeaux-mixture",
+        "patterns": [
+          "brands for pesticide bordeaux-mixture", 
+          "companies producing bordeaux-mixture"
+        ],
+        "responses": [
+          "1. Suryakiran chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-bayleton",
+        "patterns": [
+          "brands for pesticide Bayleton", 
+          "companies producing Bayleton"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-carbendazim",
+        "patterns": [
+          "brands for pesticide carbendazim", 
+          "companies producing carbendazim"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Crystal Crop Protection Ltd"
+        ]
+      },
+      {
+        "tag": "brands-for-copper-oxychloride",
+        "patterns": [
+          "brands for pesticide Copper Oxychloride", 
+          "companies producing Copper Oxychloride"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Alpha Crop Science Pvt Ltd\n3. Syngenta"
+        ]
+      },
+      {
+        "tag": "brands-for-metalaxyl",
+        "patterns": [
+          "brands for pesticide Metalaxyl", 
+          "companies producing Metalaxyl"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Safex Chemicals (India) Limited"
+        ]
+      },
+      {
+        "tag": "brands-for-fosetyl",
+        "patterns": [
+          "brands for pesticide fosetyl", 
+          "companies producing fosetyl"
+        ],
+        "responses": [
+          "1. BAYER"
+        ]
+      },
+      {
+        "tag": "brands-for-mancozeb",
+        "patterns": [
+          "brands for pesticide mancozeb", 
+          "companies producing mancozeb"
+        ],
+        "responses": [
+          "1. Shree Organics\n2. Agrofil Industries"
+        ]
+      },
+      {
+        "tag": "brands-for-streptocycline",
+        "patterns": [
+          "brands for pesticide streptocycline", 
+          "companies producing streptocycline"
+        ],
+        "responses": [
+          "1. Hindustan Antibiotic Agricultural Streptocycline from National Pesticides and Chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-wettable sulphur",
+        "patterns": [
+          "brands for pesticide wettable sulphur", 
+          "companies producing wettable sulphur"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals"
+        ]
+      },
+  
+     
+      {
+        "tag": "soil-health-policies",
+        "patterns": [
+          "What are Soil Health Policies?",
+          "Government policies to keep soil full of nutrients",
+          "Government policies to keep soil health",
+          "Other soil health policies",
+          "Khet Yojana",
+          "Khet Sudhar yojana"
+        ],
+        "responses": [
+          "1. Paramparagat Krishi Vikas Yojana\n2. Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)\n3. Soil Health Cards"
+        ]
+      },
+      {
+        "tag": "paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "Paramparagat Krishi Vikas Yojana",
+          "Soil policy to keep soil fertile?",
+          "PKVY",
+          "Which policy is made to make soil fertile?"
+        ],
+        "responses": [
+          "Paramparagat Krishi Vikas Yojana is an elaborated component of Soil Health Management (SHM) of major project National Mission of Sustainable Agriculture (NMSA). Under PKVY Organic farming is promoted through adoption of organic village by cluster approach and PGS certification.\n\nThe main objective of Paramparagat Krishi Vikas Yojana 2022 is to increase the fertility of the soil. Through this scheme, financial assistance is provided for cluster building, capacity building, incentives, value addition and marketing. This scheme was started in the year 2015-16 to promote chemical free organic farming in cluster mode.\n\n"
+        ]
+      },
+      {
+        "tag": "financial-assistance-in-paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "money provided in PKVY",
+          "Financial assistance in Paramparagat Krishi Vikas Yojana",
+          "How much money is provided in Paramparagat Krishi Vikas Yojana",
+          "Money help in Paramparagat Krishi Vikas Yojana",
+          "Amount distribution of Paramparagat Krishi Vikas Yojana finance",
+          "For what all things finance is provided in Paramparagat Krishi Vikas Yojana"
+        ],
+        "responses": [
+          "Through this scheme, financial assistance of ₹ 50000 per hectare is provided for 3 years for cluster building, capacity building, incentives for other activities, value addition and marketing. Out of this ₹ 31000 per hectare for 3 years is provided for purchase of organic materials like organic fertilizers, pesticides, seeds etc. In addition ₹8800 per hectare is provided for 3 years for value addition and marketing. Financial assistance of ₹ 3000 per hectare for 3 years is also provided for cluster formation and capacity building. Including exposure visits and training of field personnel. This amount will be deposited in the account of farmers. Disbursed through Direct Benefit Transfer."
+        ]
+      },
+      {
+        "tag": "pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "Pradhan Mantri Krishi Sinchayee Yojana",
+          "Pradhan Mantri Krishi Sinchayi Yojana",
+          "PMKSY",
+          "Sinchayee Yojana",
+          "Sinchayi Yojana",
+          "Hat Khet ko Pani",
+          "Jal Sanchay",
+          "Irrigation policies",
+          "Which policy is made to make soil wet?",
+          "Waterlogged soil policy",
+          "Which policy provide water to farm?"
+        ],
+        "responses": [
+          "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation ‘Har Khet ko pani’ and improving water use efficiency ‘More crop per drop' in a focused manner with end to end solution on source creation, distribution, management, field application and extension activities."
+        ]
+      },
+      {
+        "tag": "activities-in-pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "Activities in PMKSY",
+          "Activities in Pradhan Mantri Krishi Sinchayee Yojana",
+          "Activities in Pradhan Mantri Krishi Sinchayi Yojana",
+          "How Pradhan Mantri Krishi Sinchayi Yojana works?",
+          "What is done in Pradhan Mantri Krishi Sinchayi Yojana?"
+        ],
+        "responses": [
+          "1. Creation of new water sources through Minor Irrigation (both surface and ground water) Repair, restoration and renovation of water bodies; strengthening carrying capacity of traditional water sources, construction rain water harvesting structures (Jal Sanchay)\n2. Command area development, strengthening and creation of distribution network from source to the farm;\n3. Improvement in water management and distribution system for water bodies to take advantage of the available source which is not tapped to its fullest capacity (deriving benefits from low hanging fruits). At least 10% of the command area to be covered under micro/precision irrigation.\n4. Diversion of water from source of different location where it is plenty to nearby water scarce areas, lift irrigation from water bodies/rivers at lower elevation to supplement requirements beyond IWMP and MGNREGS irrespective of irrigation command.\n5. Creation and rejuvenation of traditional water storage systems like Jal Mandir (Gujarat); Khatri, Kuhl (H.P.); Zabo (Nagaland); Eri, Ooranis (T.N.); Dongs (Assam); Katas, Bandhas (Odisha and M.P.) etc. at feasible locations."
+        ]
+      },
+      {
+        "tag": "soil-health-cards",
+        "patterns": [
+          "Soil Health Cards"
+        ],
+        "responses": [
+          "The Soil Health Cards gives information to farmers on nutrient status of their soil along with recommendation on appropriate dosage of nutrients to be applied for improving soil health and its fertility."
+        ]
+      },
+  
+      {
+        "tag": "market-policies",
+        "patterns": [
+          "Market-based policies",
+          "Market policies for farmers",
+          "Market policies"
+        ],
+        "responses": [
+          "1. Terminal Markets Complex\n2. National Agriculture Market (eNAM)"
+        ]
+      },
+      {
+        "tag": "terminal-markets-complex",
+        "patterns": [
+          "Terminal Markets Complex",
+          "TMC"
+        ],
+        "responses": [
+          "Description of Terminal Markets Complex: Link farmers to markets by shortening supply chain of perishables and enhance their efficiency and increase in farmers income"
+        ]
+      },
+      {
+        "tag": "national-agriculture-market",
+        "patterns": [
+          "National Agriculture Market",
+          "eNAM"
+        ],
+        "responses": [
+          "National Agriculture Market (eNAM) is a pan-India electronic trading portal that networks the existing APMC mandis to create a unified national market for agricultural commodities."
+        ]
+      },
+  
+      {
+        "tag": "insurance-policies",
+        "patterns": [
+          "Insurance-based policies",
+          "Insurance policies for farmers",
+          "Insurance policies",
+          "Bima Suvidha"
+        ],
+        "responses": [
+          "1. Pradhan Mantri Fasal Bima Yojana\n2. IFFCO-TOKIO General Insurance Kisan Suvidha Bima\n3. Draksha Bima (Grape Insurance)"
+        ]
+      },
+  
+      {
+        "tag": "sustainable-and-organic-farming-policies",
+        "patterns": [
+          "What are Sustainable and organic farming policies?",
+          "Sustainable policies",
+          "Organic policies",
+          "Sustainable/Organic farming policies"
+        ],
+        "responses": [
+          "1. National Mission For Sustainable Agriculture (NMSA)\n2. Pradhan Mantri Krishi Sinchai Yojana (PMKSY)\n3. Paramparagat Krishi Vikas Yojana (PKVY)\n4. Rainfed Area Development Programme (RADP)"
+        ]
+      },
+      {
+        "tag": "national-mission-for-sustainable-agriculture",
+        "patterns": [
+          "National Mission For Sustainable Agriculture?",
+          "NMSA"
+        ],
+        "responses": [
+          "National Mission For Sustainable Agriculture (NMSA) - This scheme provides insurance cover for all stages of the crop cycle including post-harvest risks in specified instances, with low premium contribution by farmers. NMSA will cater to key dimensions of ‘Water use efficiency’, ‘Nutrient Management’ and ‘Livelihood diversification’ through adoption of sustainable development pathway by progressively shifting to environmental friendly technologies, adoption of energy efficient equipments, conservation of natural resources, integrated farming, etc."
+        ]
+      },
+      {
+        "tag": "Rainfed-Area-Development-Programme",
+        "patterns": [
+          "Rainfed Area Development Programme",
+          "RADP"
+        ],
+        "responses": [
+          "The aim was to improve quality of life of farmers’ especially, small & marginal farmers by giving a complete package of activities to maximize farm returns. It also help in increasing agricultural productivity of rainfed areas in a sustainable way by adopting suitable farming system based approaches. It minimises the adverse impact of possible crop failure because of drought, flood or un-even rainfall distribution through diversified & composite farming system."
+        ]
+      },
+  
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "Income based policies",
+          "policies on farming income"
+        ],
+        "responses": [
+          "1. PM-Kisan Scheme\n2. Pradhan Mantri Kisan Maandhan yojana\n"
+        ]
+      },
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "PM-Kisan Scheme",
+          "Prime minister Kisan Scheme",
+          "Pradhan Mantri Kisan Scheme"
+        ],
+        "responses": [
+          "Pradhan Mantri Kisan Scheme: Initiative of the Government wherein 120 million small and marginal farmers of India with less than two hectares of landholding will get up to Rs. 6,000 per year as minimum income support."
+        ]
+      },
+      {
+        "tag": "PM-Kisan-Maandhan-Scheme",
+        "patterns": [
+          "PM Kisan Maandhan Scheme",
+          "Maandhan scheme",
+          "Kisan Maandhan"
+        ],
+        "responses": [
+          "Under PM Kisan Maandhan scheme about 5 crore marginalised farmers will get a minimum pension of Rs 3000 / month on attaining the age of 60. Those who fall in the age group of 18 - 40 years will be eligible to apply for the scheme. Under this scheme, the farmers will be required to make a monthly contribution of Rs 55 to 200, depending on their age of entry, in the Pension Fund till they reach the retirement date, 60 years. The Government will make an equal contribution of the same amount in the pension fund for the cultivators."
+        ]
+      },
+  
+  
+      {
+        "tag": "Loan-policies",
+        "patterns": [
+          "Credit Card Policies",
+          "Loan policies"
+        ],
+        "responses": [
+          "1. Kisan Credit Card (KCC) scheme"
+        ]
+      },
+      {
+        "tag": "Kisan-Credit-Card",
+        "patterns": [
+          "Kisan Credit Card",
+          "KCC",
+          "Credit cards given by government",
+          "Which companies offer credit card to farmers?"
+        ],
+        "responses": [
+          "Under Kisan Credit Card (KCC) scheme, farmers are given short-term loans to purchase equipment & for their other expenses as well. There are many banks that offer KCC including SBI, HDFC, ICICI, Axis."
+        ]
+      },
+  
+      
+      {
+        "tag": "disease-anthracnose",
+        "patterns": [
+          "Anthracnose",
+          "any thing on Anthracnose",
+          "describe Anthracnose",
+          "I want to know about Anthracnose",
+          "what is Anthracnose",
+          "what is Elsinoeampelina"
+        ],
+        "responses": [
+          "<img src='https://arborjet.com/wp-content/uploads/2019/03/Anthracnose46.jpg'> Anthracnose or Elsinoeampelina: Small light brown or grayish black lesions develop on tender shoots, young leaves, flowers and young berries <a href=\"https://www.britannica.com/science/anthracnose\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+  
+      {
+        "tag": "pesticides-disease-anthracnose",
+        "patterns": [
+          "How to prevent Anthracnose",
+          "solution on Anthracnose",
+          "Pesticides to prevent Anthracnose",
+          "Some pesticides on Anthracnose"
+        ],
+        "responses": [
+          "1. Wettable Sulphur (1.5kg/200 litres of water)\n2. Bayleton (1g/litre of water)"
+        ]
+      },
+  
+      {
+        "tag": "disease-bacterial-leaf-spot",
+        "patterns": [
+          "any thing on Bacterial Leaf Spot",
+          "Bacterial Leaf Spot",
+          "describe Bacterial Leaf Spot",
+          "I want to know about Bacterial Leaf Spot",
+          "what is Xanthomonas campestris"
+        ],
+        "responses": [
+          "Bacterial Leaf Spot(Xanthomonas campestris): The symptoms appear as minute water soaked spots on the lower surface of the leaves along the main and lateral veins. Later on these spots coalesce and form larger patches. Brownish black lesions are formed on  the berries, which later become small and shriveled."
+        ]
+      },
+      {
+        "tag": "disease-downy-mildew",
+        "patterns": [
+          "any thing on downy mildew",
+          "describe Downy mildew",
+          "Downy mildew",
+          "I want to know about Downy mildew",
+          "what is Plasmoparaviticola"
+        ],
+        "responses": [
+          "<img width=300 height=200 src='https://soybeanresearchinfo.com/wp-content/uploads/2019/03/downy-mildew-on-soybean-Adam-Sisson-P1040070.jpg'>\nPlasmoparaviticola or Downy mildew on a plant is marked by a whitish down composed of spore-forming hyphae, penetrating more deeply into the plant than powdery mildew. "
+        ]
+      },
+      {
+        "tag": "Symptoms-disease-downy-mildew",
+        "patterns": [
+          "symptoms of downy mildew",
+          "how to know my plant is affected with Downy mildew?"
+        ],
+        "responses": [
+          "Initial symptoms of downy mildew appear as light yellow spots on the upper surface of young mature leaves with corresponding white spots on the lowerside. Affected portions of the leaves turn brown and cannot support the bunch development due to reduced photosynthetic activity."
+        ]
+      },
+      {
+        "tag": "Pesticides-disease-downy-mildew",
+        "patterns": [
+          "how to prevent plant from downy mildew?",
+          "Pesticides for Downy mildew"
+        ],
+        "responses": [
+          "1. Copper Oxychloride (0.2%)\n2. Bordeauxmixture(1%)\n3. Mancozeb(0.2%)\n4. Fosetyl Al(0.2%)"
+        ]
+      },
+  
+      {
+        "tag": "disease-powder-mildew",
+        "patterns": [
+          "any thing on powder mildew",
+          "describe Powder mildew",
+          "I want to know about Powder mildew",
+          "Powder mildew",
+          "Uncinula necator",
+          "what is powder mildew"
+        ],
+        "responses": [
+          "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Oidio_Plantas.jpg/1024px-Oidio_Plantas.jpg'> \nPowder Mildew(Uncinula necator) is a worldwide fungal disease that causes a white powdery coating on the surface of leaves, buds, young shoots, fruits, and flowers. \n<a href=\"https://en.wikipedia.org/wiki/Powdery_mildew\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+      
+  
+      {
+        "tag": "General_About_You",
+        "patterns": [
+          "About you", 
+          "Describe your self", 
+          "Do you have a name?", 
+          "Do you know who you are?", 
+          "How can I configure you?", 
+          "How do you function?", 
+          "How old are you?", 
+          "Introduce your self",
+          "Let us talk about you", 
+          "Tell me about your life", 
+          "Tell me something about yourself", 
+          "What languages do you speak?", 
+          "What should I know about you?", 
+          "What's your name?", 
+          "Where are you from?", 
+          "Where were you born?", 
+          "Who are you?", 
+          "Why are you here?"
+        ],
+        "responses": [
+          "I am a FarmaBot which helps you to resolve and give general information regarding your farming practices and remedies query"
+        ],
+        "context": "Request generic personal attributes."
+      },
+      {
+        "tag": "General_Agent_Capabilities",
+        "patterns": [
+          "Can you please give me a list of the types of things you can help me with?",  
+          "Can you tell me what services you are able to help me with?",  
+          "Do you have a list of things I can talk to you about?", 
+          "Help now", 
+          "Hi, what do you do?", 
+           "How can I use you?", 
+           "How can you help me?", 
+           "How can you solve my problems?", 
+           "How do I use you?", 
+           "I'd like to know what type of questions you can answer for me.", 
+           "I do not know what to ask", 
+           "Is there anything you can help me with?",
+           "Tell me about what kind of things you do?", 
+           "Tell me something", 
+           "What are my options?", 
+           "What are my options that you can help with?", 
+           "What are you able to deal with?", 
+           "What are you able to understand?", 
+           "What are you capable of?", 
+           "What are you good at?", 
+           "What are your skills?", 
+           "What are you used for?", 
+           "What can I ask you to do?", 
+           "What do you do?", 
+           "What do you handle?", 
+           "What else can you help me with?", 
+           "What features are in here?", 
+           "What is this 4?", 
+           "What kinds of things can you do?", 
+           "Where can I find the frequently asked questions?"
+        ],
+        "responses": [
+          "You can ask me any doubts related to:\n1. Government Policies\n2. Plants Diseases\n3. Pesticides\n 4. Pesticides/Chemicals brands"
+        ],
+        "context": "Request capabilities of the bot."
+      },
+      {
+        "tag": "General_Connect_to_Agent",
+        "patterns": [ 
+          "Agent help", 
+           "A real agent, please.", 
+           "Call agent", 
+           "Can I connect to an agent?", 
+           "Can I speak to a human please?", 
+           "Can I speak to a live person?", 
+           "Can I speak to an advisor?", 
+           "Can I speak with somebody?", 
+           "Can I talk to someone?", 
+           "Can you assist me to connect to an agent?", 
+           "Can you connect me with a real person?", 
+           "Connect me to a live operator please.", 
+           "Contact person", 
+           "Could you please transfer me to your master?", 
+           "Customer service representative please.",
+           "Do not want a robot?", 
+           "Hi can you transfer me", 
+           "How can I skip the recorded menu and go straight to a live person?", 
+           "I don't want to talk to a bot.", 
+           "I don't want to talk to you", 
+           "I need to speak to a representative. How would I go about doing so?", 
+           "Is there anyone there I can actually talk to for real?", 
+           "I want agent", 
+           "I want a manager", 
+           "I want an agent to help me", 
+           "I want to talk to a person", 
+           "I would like to speak to a human", 
+           "I would like to speak to someone", 
+           "Need help from human", 
+           "Operator please", 
+           "Please assist me to get to an agent", 
+           "Please connect me to a live agent", 
+           "Please let me talk to a human being.", 
+           "Pls connect", 
+           "Put me through to someone", 
+           "Send me to an agent", 
+           "Where is the closest agent?", 
+           "Yes, take me to a real person"
+        ],
+        "responses": [
+          "Following are some helpline number and officials sites: <a href=''>Kisan call center</a> "
+        ],
+        "context": "Request a human agent."
+      },
+      {
+        "tag": "General_Ending",
+        "patterns": [ 
+          "Bye bye", 
+           "Bye now", 
+           "Catch you later", 
+           "Cya later", 
+           "Ending this session", 
+           "End trial", 
+           "Finished now, good bye", 
+           "Get lost", 
+           "Go away", 
+           "Going now", 
+           "Good. bye.", 
+           "Goodbye", 
+           "Go off", 
+           "Have a nice day?", 
+           "Hey bot go away", 
+           "I am leaving", 
+           "I am out of here", 
+           "I d like to stop doing this", 
+           "I have got to go", 
+           "I'm done", 
+           "Im done", 
+           "Im good thank you", 
+           "I'm leaving now", 
+           "It was nice chatting with you", 
+           "I want to quit", 
+           "Ok goodbye", 
+           "See you", 
+           "See you later", 
+           "Shut up", 
+           "Stop doing this", 
+           "Stop talking to me", 
+           "Thanks, bye!", 
+           "Thanks very much, bye!", 
+           "Thank you for your time", 
+           "That is all", 
+           "That's everything", 
+           "Time to go" 
+        ],
+        "responses": [
+          "Good to see you. Bye"
+        ],
+        "context": "End the conversation."
+      },
+      {
+        "tag": "General_Greetings",
+        "patterns": [ 
+          "Good day", 
+           "Good evening", 
+           "Good morning", 
+           "Good to see you", 
+           "Greetings", 
+           "Have you been well?", 
+           "Hello", 
+           "Hello Agent", 
+           "Hello I am looking for some help here", 
+           "Hey how are you doing", 
+           "Hey there", 
+           "Hey there all", 
+           "Hey twin", 
+           "Hey you", 
+           "Hi advisor", 
+           "Hi there", 
+           "How are things going?", 
+           "How are you today?", 
+           "How have you been?", 
+           "How is it going?", 
+           "How r u?", 
+           "Looking good eve", 
+           "Ok take me back", 
+           "What's new?", 
+           "What's up?", 
+           "Who is this?", 
+           "You there" 
+         ],
+        "responses": [
+          "Hello,\n how can i help you?"
+        ],
+        "context": "Greet the bot."
+      },
+      {
+        "tag": "General_Human_or_Bot",
+        "patterns": [ 
+          "Am I chatting with a human?", 
+           "Am I talking to a Bot?", 
+           "Am I talking to a person or am I talking to an AI?", 
+           "Am I talking to Watson?", 
+           "Are you a human or a bot?", 
+           "Are you a robot?", 
+           "Are you even real?", 
+           "Are you human?", 
+           "Are you real?", 
+           "How can you prove you are a human?", 
+           "Is this a computer?", 
+           "Tell me, are you a human or no?"
+        ],
+        "responses": [
+          "I am a Bot made by humans. I am here to assist you in farming. How can I help you?"
+        ],
+        "context": "Ask if speaking to a human or a bot."
+      },
+      {
+        "tag": "General_Negative_Feedback",
+        "patterns": [ 
+          "Do not like you?", 
+           "Everyone hates you", 
+           "Hate you", 
+           "I do not like you", 
+           "I hate this!", 
+           "I hate you", 
+           "It is annoying", 
+           "Quit annoying me", 
+           "Robots are boring", 
+           "Robots are stupid", 
+           "Stupid", 
+           "Why are you so annoying?", 
+           "Why are you stupid?", 
+           "You are having delusions", 
+           "You are on my nerves", 
+           "You are very frustrating", 
+           "You do not seem smart", 
+           "You're really frustrating", 
+           "You're really irritating", 
+           "You're too stupid"
+        ],
+        "responses": [
+          "Sorry to see frustrated, you can ask me another question or modify your question."
+        ],
+        "context": "Express unfavorable feedback."
+      },
+      {
+        "tag": "General_Positive_Feedback",
+        "patterns": [ 
+          "Brilliant!", 
+           "Can't believe you are that good", 
+           "How cool is this?", 
+           "I like what you did there! :)", 
+           "I'm looking forward to working with you again! :)", 
+           "Love your work", 
+           "Ok thank you", 
+           "Thank you", 
+           "This is good", 
+           "This is great", 
+           "This is so cool", 
+           "You are awesome", 
+           "You are great", 
+           "You are the best", 
+           "You are wonderful", 
+           "You gave me exactly what I need!", 
+           "You're a genius!", 
+           "You the man", 
+           "You've been so helpful :)"
+        ],
+        "responses": [
+          "Thank you "
+        ],
+        "context": "Express positive sentiment or gratitude."
+      },
+      {
+        "tag": "more",
+        "patterns": [ 
+          "can i get something more", 
+           "i need to know more", 
+           "I need to more options"
+        ],
+        "responses": [
+          "May I know what you want to know more?"
+        ],
+        "context": ""
+      }
+      
+      ]
+  }
+  
+  
